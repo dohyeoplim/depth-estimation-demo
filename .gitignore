@@ -1,0 +1,11 @@
+.DS_Store
+.Trashes
+
+xcuserdata/
+
+Packages/
+Package.resolved
+.swiftpm
+
+Pods/
+
