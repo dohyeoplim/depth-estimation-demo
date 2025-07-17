@@ -11,9 +11,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9C0117C32E28FDD10093F852 /* depth-estimation-demo */ = {
+		9C0117C32E28FDD10093F852 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "depth-estimation-demo";
+			path = App;
+			sourceTree = "<group>";
+		};
+		9C0117CF2E28FEBA0093F852 /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9C0117D02E28FEC30093F852 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C0117D92E28FF340093F852 /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9C0117E02E29000D0093F852 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +52,11 @@
 		9C0117B82E28FDD10093F852 = {
 			isa = PBXGroup;
 			children = (
-				9C0117C32E28FDD10093F852 /* depth-estimation-demo */,
+				9C0117E02E29000D0093F852 /* Models */,
+				9C0117D02E28FEC30093F852 /* Resources */,
+				9C0117D92E28FF340093F852 /* Core */,
+				9C0117CF2E28FEBA0093F852 /* Features */,
+				9C0117C32E28FDD10093F852 /* App */,
 				9C0117C22E28FDD10093F852 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +85,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9C0117C32E28FDD10093F852 /* depth-estimation-demo */,
+				9C0117C32E28FDD10093F852 /* App */,
+				9C0117CF2E28FEBA0093F852 /* Features */,
+				9C0117D02E28FEC30093F852 /* Resources */,
+				9C0117D92E28FF340093F852 /* Core */,
+				9C0117E02E29000D0093F852 /* Models */,
 			);
 			name = "depth-estimation-demo";
 			packageProductDependencies = (
@@ -256,11 +284,13 @@
 				DEVELOPMENT_TEAM = 3X4434LYHD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라를 통해 물체 거리 측정 및 햅틱 피드백 기능을 제공합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,11 +314,13 @@
 				DEVELOPMENT_TEAM = 3X4434LYHD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라를 통해 물체 거리 측정 및 햅틱 피드백 기능을 제공합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
